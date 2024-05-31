@@ -1,0 +1,436 @@
+@media only screen and (min-width: 200px) and (max-width: 575px){
+/* ! Header Section Start */
+    header{
+        width: 100%;
+    }
+    nav{
+        padding: 0px 20px;
+    }
+    .nav-left img{
+        width: 120px;
+    }
+    .btn1,.btn2{
+        gap: 5px;
+        font-size: 12px;
+    }
+    .btn{
+        padding: 10px 10px;
+        border-radius: 8px;
+    }
+/* ! Header Section End */
+/* ! Hero Section Start */
+.mid-hero--section{
+    padding: 30px 20px;
+    flex-direction: column;
+}
+.hero-left>h1{
+    font-size: 32px;
+    line-height: 45px;
+}
+.hero-left>h1>span{
+    background-size: 300px;
+}
+.hero-left>p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.hero-left>ul>li{
+    font-size: 17px;
+}
+.hero-btn{
+    margin-top: 20px;
+}
+.h-btn{
+    padding: 12px 8px;
+}
+.h-btn1{
+    margin-right: 5px;
+    font-size: 15px;
+}
+.h-btn2{
+    font-size: 15px;
+}
+
+
+.hero-right{
+    padding: 50px 0px 30px 0px;
+}
+.hero-right>form{
+    width: 380px;
+    height: 480px;
+    padding: 40px 20px;
+}
+.hero-right>form::after{
+    display: none;
+}
+form>h3{
+    font-size: 22px;
+}
+form>p{
+    font-size: 12px;
+}
+.mid-achivements{
+    max-width: 370px;
+    padding: 30px 0px;
+    flex-direction: column;
+    gap: 40px;
+}
+.achivements-items{
+    flex-basis: 100%;
+}
+/* ! Hero Section End */
+/* ! Key Highlights Section Start */
+.main-key--highlights{
+    padding: 40px 20px;
+}
+.mid-key--highlights>h2{
+    font-size: 25px; 
+}
+.mid-key--highlights>p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.highlights-container{
+    flex-direction: column;
+}
+.highlights-items{
+    justify-content: space-between;
+}
+.items-content>p{
+    font-size: 14px;
+}
+/* ! Key Highlights Section End */
+/* ! Top Career Section Start */
+.mid-top--carrer{
+    padding: 40px 20px;
+}
+.mid-top--carrer>h2{
+    font-size: 32px;
+    line-height: 40.25px;
+}
+.mid-top--carrer>p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.top-career--container{
+    flex-direction: column;
+    gap: 20px;
+}
+.career-bg{
+    margin-bottom: 20px;
+}
+.top-career--items{
+    flex-basis: 100%;
+}
+.top-career--items>h4{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.top-career--items>p{
+    font-size: 16px;
+}
+/* ! Top Career Section End */
+/* ! Get Certified Section Start */
+.mid-get--certified{
+    padding: 40px 20px;
+    flex-direction: column;
+}
+.certified-left>h2{
+    font-size: 32px;
+}
+.certified-left>p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.certified-items{
+    align-items: center;
+    justify-content: center;
+}
+.certified-items>.certified-content>h4{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.certified-items>.certified-content>p{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: start;
+}
+.certificate-box>img{
+    width: 100%;
+}
+.certificate-box>.dot-image{
+    width: 20%;
+    top: -6px;
+    left: -15px;
+}
+/* ! Get Certified Section End */
+/* ! Curriculum Section Start */
+.mid-curriculum{
+    padding: 40px 20px;
+}
+.mid-curriculum>h2{
+    font-size: 32px;
+    line-height: 40.25px;
+}
+.mid-curriculum>p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.mid-curriculum>ul{
+    display: none;
+}
+.curriculum-container{
+    flex-direction: column;
+}
+.curriculum-container>ul>li{
+    font-size: 12px;
+    line-height: 26.63px;
+    margin-bottom: 8px;
+}
+.curriculum-container>ul>li>i{
+    font-size: 12px;
+    margin-right: 5px;
+}
+/* ! Curriculum Section End */
+/* ! Why Learn Section Start */
+.mid-why--learn{
+    padding: 40px 20px;
+}
+.mid-why--learn>h2{
+    font-size: 32px;
+    line-height: 40.25px;
+}
+.mid-why--learn>p{
+    line-height: 25px;
+}
+.why-learn--container{
+    flex-direction: column;
+}
+/* ! Why Learn Section End */
+/* ! Reviews Section Start */
+.mid-reviews{
+    padding: 50px 20px;
+}
+.mid-reviews>h2{
+    font-size: 32px;
+    line-height: 40.25px;
+}
+.mid-reviews>p{
+    line-height: 25px;
+}
+.reviews-container{
+    flex-direction: column;
+    gap: 20px;
+}
+.book-class--box{
+    width: 100%;
+    padding: 0px 10px;
+}
+.book-class--box>h2{
+    font-size: 28px;
+    line-height: 40.25px;
+}
+.book-class--box>p{
+    font-size: 16px;
+    line-height: 25px;
+}
+.book-class--box>.rotated-img{
+    display: none;
+}
+/* ! Reviews Section End */
+/* ! FAQs Section Start */
+.mid-faq{
+    padding: 50px 20px;
+}
+.mid-faq>h2{
+    font-size: 28px;
+    line-height: 40.25px;
+}
+.mid-faq>p{
+    line-height: 25px;
+}
+.mid-faq>ul{
+    padding: 20px 0px;
+}
+.mid-faq>ul>li>.question{
+    color: #0A2134;
+}
+.mid-faq>ul>li>.question>.fa-minus{
+    display: none;
+}
+.mid-faq>ul>li>.question>.fa-plus{
+    display: block;
+}
+.mid-faq>ul>li>.answer{
+    display: none;
+}
+
+/* ! FAQs Section End */
+/* ! Companies Hiring Section Start */
+.mid-companies--hiring{
+    padding: 50px 20px;
+}
+.mid-companies--hiring>h2{
+    font-size: 32px;
+    line-height: 40.25px;
+    /* text-align: start; */
+}
+.mid-companies--hiring>img{
+    width: 100%;
+}
+/* ! Companies Hiring Section End */
+/* ! Footer Section Start */
+.first-footer{
+    padding: 40px 20px;
+}
+.second-footer{
+    padding: 20px 20px;
+}
+/* ! Footer Section End */
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px){
+/* ! Header Section Start */
+header{
+    width: 100%;
+}
+nav{
+    padding: 10px 20px;
+}
+.btn1, .btn2{
+    font-size: 20px;
+}
+/* ! Header Section End */    
+/* ! Hero Section Start */
+.mid-hero--section{
+    padding: 50px 20px;
+    flex-direction: column;
+}
+.hero-right{
+    padding: 80px 0px 50px 0px;
+}
+.hero-right>form::after{
+    top: 50px;
+    left: 105px;
+}
+.mid-achivements{
+    max-width: 95%;
+    padding: 40px 0px;
+}
+.achivements-items>div{
+    font-size: 20px;
+}
+.achivements-items>p{
+    font-size: 15px;
+}
+/* ! Hero Section End */
+/* ! Key Highlights Section Start */
+.main-key--highlights{
+    padding: 50px 20px;
+}
+.highlights-container{
+        flex-direction: column;
+}
+.highlights-items{
+    align-items: center;
+}
+/* ! Key Highlights Section End */
+/* ! Top Career Section Start */
+.mid-top--carrer{
+    padding: 50px 20px;
+}
+.top-career--container{
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.top-career--items{
+    padding: 40px 20px;
+    flex-basis: 48%;
+}
+/* ! Top Career Section End */
+/* ! Get Certified Section Start */
+.mid-get--certified{
+    padding: 50px 20px;
+    flex-direction: column;
+}
+.certified-items{
+    align-items: center;
+}
+.certified-btn{
+    margin: auto;
+}
+.certified-right{
+    width: 60%;
+    padding-top: 20px;
+    margin: auto;
+}
+.certificate-box>.dot-image{
+    top: -12px;
+}
+/* ! Get Certified Section End */
+/* ! Curriculum Section Start */
+.mid-curriculum{
+    padding: 50px 20px;
+}
+.curriculum-container{
+    flex-direction: column;
+}
+.curriculum-container>ul>li{
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.curriculum-container>ul>li>i{
+    font-size: 24px;
+    margin-right: 5px;
+}
+/* ! Curriculum Section End */
+/* ! Why Learn Section Start */
+.mid-why--learn{
+    padding: 50px 20px;
+}
+.why-learn--container{
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.why-learn--items{
+    flex-basis: 48%;
+}
+/* ! Why Learn Section End */
+/* ! Reviews Section Start */
+.mid-reviews{
+    padding: 50px 20px;
+}
+.reviews-container{
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.review-items{
+    flex-basis: 48%;
+}
+.book-class--box{
+    width: 100%;
+    padding: 0px 10px;
+}
+.book-class--box>.rotated-img{
+    left: 70%;
+}
+/* ! Reviews Section End */
+/* ! FAQs Section Start */
+.mid-faq{
+    padding: 50px 20px;
+}
+/* ! FAQs Section End */
+/* ! Companies Hiring Section Start */
+.mid-companies--hiring{
+    padding: 50px 20px;
+}
+.mid-companies--hiring>h2{
+    margin-bottom: 30px;
+}
+.mid-companies--hiring>img{
+    width: 100%;
+}
+/* ! Companies Hiring Section End */
+}
